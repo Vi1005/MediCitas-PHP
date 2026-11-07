@@ -104,6 +104,16 @@ function enlaceMenu($archivo, $nombre, $icono, $paginaActual, $clave)
                         $pagina,
                         'citas'
                     );
+
+                    
+enlaceMenu(
+    'historial-clinico.php',
+    'Historial Clínico',
+    'notes-medical',
+    $pagina,
+    'historial'
+);
+
                     ?>
 
                     <div class="sb-sidenav-menu-heading">
